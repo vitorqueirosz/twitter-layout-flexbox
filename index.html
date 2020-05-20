@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter Layout</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="content">
+            <nav>
+                <ul>
+                    <li><img src="/assets/home.svg" alt="home Twitter"> Home</li>
+                    <li><img src="/assets/notification.svg" alt="home Twitter"> Notifications</li>
+                    <li><img src="/assets/message.svg" alt="home Twitter"> Messages</li>
+                </ul>
+            </nav>
+            <img src="/assets/logo.svg" alt="logo Twitter">
+            <div>
+                <input type="text" placeholder="Search on Twitter">
+                <img src="https://i.pinimg.com/236x/c6/ea/e6/c6eae6a05a523c25e0f8ed030d9a1a70.jpg" alt="">
+                <button>Tweet</button>
+            </div>
+    </div>
+
+</header>
+    <div class="banner"><img src="https://i.pinimg.com/236x/e3/0d/58/e30d58a77aeef5afc045849578f050c0.jpg" alt="banner"></div>
+
+
+    <div class="bar">
+        <div class="content">
+            <ul >
+                <li onclick="addClass()" id="click">
+                    <span>Tweets</span>
+                    <strong>8788</strong>
+                </li>
+                <li onclick="addClass2()" id="click2">
+                    <span>Followings</span>
+                    <strong>452</strong>
+                </li>
+                <li>
+                    <span>Followers</span>
+                    <strong>785</strong>
+                </li>
+                <li>
+                    <span>Favorites</span>
+                    <strong>125</strong>
+                </li>
+            </ul>
+    
+            <div class="actions">
+                <button>Follow</button>
+                <img  src="/assets/more.svg" alt="More">
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="wrapper-content content">
+        <aside class="profile">
+            <img class="avatar" src="https://i.pinimg.com/236x/c6/ea/e6/c6eae6a05a523c25e0f8ed030d9a1a70.jpg" alt="Avatar">
+            <h1>Cooper</h1>
+            <span>@Nasa</span>
+            <p>Astronauta, viajante, conhecedor e explorador. Apaixonado pelo espaco e seu ecossistema. Working at @Nasa</p>
+
+            <ul class="list">
+                <li><img src="/assets/place.svg" alt="Place"> Los Angeles, USA</li>
+                <li><img src="/assets/url.svg" alt="URL"> Nasa.com</li>
+                <li><img src="/assets/joined.svg" alt="Joined"> Joined March 2016</li>
+                <li><img src="/assets/born.svg" alt="Born"> Born the 18th of February 1983</li>
+            </ul>
+
+            <div class="widget followers">
+                <strong><img src="/assets/followers.svg" alt="Followers"> 54 followers that you know</strong>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="widget images">
+                <strong><img src="/assets/images.svg" alt="Images"> 77 photos and videos</strong>
+                
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+            </div>
+        </aside>
+
+        <section class="timeline">
+                <nav >
+                    <a href="" class="active">Tweets</a>
+                    <a href="">Tweets and replies</a>
+                    <a href="">Midias</a>
+                </nav>
+                <ul class="tweets">
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/assets/avatar.png" alt="Avatar">
+                        <div class="info">
+                            <strong>Barney linson <span>@linson</span></strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit voluptatem molestias reprehenderit odio quisquam adipisci quidem.</p>
+                            <div class="actions">
+                                <a href=""><img src="/assets/comments.svg" alt="Comments"> 5</a>
+                                <a href=""><img src="/assets/retweet.svg" alt="RT"> 3</a>
+                                <a href=""><img src="/assets/like.svg" alt="Likes"> 8</a>
+                                <a  href=""><img class="message"  src="/assets/message.svg" alt="Messages"> 2</a>
+                                
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </section>
+
+
+        <aside class="widgets">
+            <div class="widget follow">
+
+                <div class="title">
+                    <strong>Who to follow</strong>
+                    <a href="">Refresh</a>
+                    <a href="">View all</a>
+                </div>
+                
+                <ul>
+                    <li>
+                        <div class="profile">
+                            <img src="/assets/avatar.png" alt="Avatar">
+                            <div class="info">
+                                <strong>
+                                    Spade
+                                    <span>@spade_be</span>
+                                </strong> 
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <a href="">x</a>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <img src="/assets/avatar.png" alt="Avatar">
+                            <div class="info">
+                                <strong>
+                                    Spade
+                                    <span>@spade_be</span>
+                                </strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <a href="">x</a>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <img src="/assets/avatar.png" alt="Avatar">
+                            <div class="info">
+                                <strong>
+                                    Spade
+                                    <span>@spade_be</span>
+                                </strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <a href="">x</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="widget trends"></div>
+
+        </aside>
+    </div>
+
+    <script src="/scripts.js">
+
+    function addClass(){
+    var element = document.getElementById("click")
+    element.classList.toggle("active")
+    
+    }
+    </script>
+</body>
+</html>
