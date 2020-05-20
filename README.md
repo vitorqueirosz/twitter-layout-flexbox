@@ -1,4 +1,4 @@
 # twitter-layout-flexbox
-:blue_circle:   A clone from the twitter's layout made only with flexbox.
+ <h4> A clone from the twitter's layout made only with flexbox.</h4>
 
-![Image description](file:///C:/bootcamp/assets/asset_twitter.PNG)
+![](https://github.com/vitorqueirosz/twitter-layout-flexbox/blob/master/assets/asset_twitter.PNG?raw=true)
